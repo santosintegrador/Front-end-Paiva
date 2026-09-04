@@ -11,4 +11,6 @@ export class Ex02 {
   produto = 'Teclado';
   preco = 150;
   quantidade = 3;
+
+  total = this.preco * this.quantidade;
 }
