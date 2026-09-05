@@ -1,0 +1,10 @@
+<p>Usuário:</p>
+<input [(ngModel)]="usuario" placeholder="Digite seu usuário">
+
+<p>Senha:</p>
+<input [(ngModel)]="senha" placeholder="Digite sua senha">
+
+<br><br>
+
+<button (click)="mensagem()" [disabled]="usuario === '' || senha === ''">Entrar </button>
+<p>{{ bemvindo }}</p>
