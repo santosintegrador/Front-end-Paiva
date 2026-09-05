@@ -27,7 +27,7 @@ export class Ex11 {
   }
 
   mensagem() {
-    this.recado = this.quantidade + ' ' + this.produto + ' adicionado ao carrinho!';
+    this.recado = this.quantidade + ' ' + this.produto + ' foram adicionados ao carrinho!';
   }
 
 }
